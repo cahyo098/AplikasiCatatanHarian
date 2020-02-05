@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertAndViewActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:text="Nama File :"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etFilename"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Catatan :"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <EditText
+            android:id="@+id/etCatatan"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="top|left"
+            android:background="#x6dfdf"
+            android:singleLine="false"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="Autofill,InefficientWeight,LabelFor,RtlHardcoded,TextFields" />
+
+
+        <Button
+            android:id="@+id/btSimpan"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="Simpan"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="HardcodedText" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

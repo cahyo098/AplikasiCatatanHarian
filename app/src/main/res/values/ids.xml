@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="miTambah" type="id">Tambah</item>
+    <item name="etContent" type="id">Content</item>
+</resources>
